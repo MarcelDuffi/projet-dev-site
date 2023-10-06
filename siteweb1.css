@@ -1,0 +1,70 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,600&family=Poppins:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+ background: #f1f1f1;
+ font-family: 'Montserrat', sans-cherif;
+
+}
+.header-logo{
+  display: inline-block;
+  width: 90%;
+  padding: 10px 20px;
+}
+.header-logo a{
+  text-decoration: none;
+  color: green;
+  font size: 1.5rem;
+  font-weight: bold;
+}
+.nav{
+  display: inline-block;
+  width: 90%;
+}
+.nav-items{
+  width: calc(70% - 100px);
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.nav-item{
+  display: inline-block;
+  margin: 0px 10px;
+}
+.nav-item a {
+  text-decoration: none;
+  color: green;
+  font-weight: 600;
+}
+.nav-search{
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  text-align: center;
+}
+.nav-search_el{
+  background: #c5c5c5;
+    padding: 2px 3px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow: hidden;
+    width: 200px;
+}
+.search-input{
+    background: #c5c5c5;
+    border: none;
+    flex-basis: 60%;
+    outline: none;
+}
+.font-image{
+ 
+
+background: linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('image boul.jpg');
+ background-size: cover;
+height: 150px;
+ 
+}
