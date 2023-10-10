@@ -5,7 +5,14 @@ body{
  box-sizing: border-box;
  background: #f1f1f1;
  font-family: 'Montserrat', sans-cherif;
+} 
 
+.font-image{
+ 
+background: linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('image boul.jpg');
+ background-size: cover;
+height: 150px;
+ 
 }
 .header-logo{
   display: inline-block;
@@ -60,11 +67,4 @@ body{
     flex-basis: 60%;
     outline: none;
 }
-.font-image{
- 
 
-background: linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('image boul.jpg');
- background-size: cover;
-height: 150px;
- 
-}
